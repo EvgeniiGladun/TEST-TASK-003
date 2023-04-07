@@ -49,9 +49,8 @@ export default {
 
 <style>
 .product-selection {
-    padding: 20px;
-    max-width: 394px;
     width: 100%;
+    max-width: 394px;
 }
 
 .selection-form__wrapper {
@@ -65,11 +64,12 @@ export default {
 }
 
 .selection-form__label {
+    font-weight: 300;
     margin-bottom: 21px;
 }
 
 .selection-form__select-item {
-    height: 52px;
+    height: 54px;
     color: rgba(1, 112, 174, 1);
     padding: 12px 19px 12px 16px;
     border-bottom: 1px solid rgba(47, 166, 234, 1);
@@ -80,7 +80,6 @@ export default {
 }
 
 .selection-form__input {
-    height: 52px;
     border: none;
     font-weight: 300;
     font-size: 24px;

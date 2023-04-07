@@ -24,6 +24,7 @@ export default {
 <style>
 .main-page {
     display: flex;
+    justify-content: space-between;
     margin: 0 26px;
 }
 </style>
